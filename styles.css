@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #00010D 0%, #020E26 25%, #44428C 75%, #5E7EBF 100%);
+    background: linear-gradient(135deg, #161426 0%, #192340 25%, #140F8C 50%, #1D17BF 75%, #2C4373 100%);
     min-height: 100vh;
     color: #fff;
     overflow-x: hidden;
@@ -31,10 +31,10 @@ body {
     width: 100%;
     height: 100%;
     background-image: 
-        radial-gradient(2px 2px at 20px 30px, #5E7EBF, transparent),
-        radial-gradient(2px 2px at 40px 70px, rgba(94, 126, 191, 0.8), transparent),
+        radial-gradient(2px 2px at 20px 30px, #1D17BF, transparent),
+        radial-gradient(2px 2px at 40px 70px, rgba(29, 23, 191, 0.8), transparent),
         radial-gradient(1px 1px at 90px 40px, #fff, transparent),
-        radial-gradient(1px 1px at 130px 80px, #44428C, transparent),
+        radial-gradient(1px 1px at 130px 80px, #2C4373, transparent),
         radial-gradient(2px 2px at 160px 30px, rgba(255, 255, 255, 0.6), transparent);
     background-repeat: repeat;
     background-size: 200px 100px;
@@ -44,16 +44,16 @@ body {
 .stars2 {
     background-image: 
         radial-gradient(1px 1px at 60px 80px, #fff, transparent),
-        radial-gradient(1px 1px at 100px 20px, rgba(94, 126, 191, 0.7), transparent),
-        radial-gradient(1px 1px at 140px 60px, #5E7EBF, transparent);
+        radial-gradient(1px 1px at 100px 20px, rgba(20, 15, 140, 0.7), transparent),
+        radial-gradient(1px 1px at 140px 60px, #1D17BF, transparent);
     animation: zoom 6s infinite linear;
 }
 
 .stars3 {
     background-image: 
         radial-gradient(1px 1px at 10px 10px, rgba(255, 255, 255, 0.5), transparent),
-        radial-gradient(1px 1px at 150px 60px, rgba(68, 66, 140, 0.6), transparent),
-        radial-gradient(2px 2px at 80px 90px, rgba(94, 126, 191, 0.4), transparent);
+        radial-gradient(1px 1px at 150px 60px, rgba(44, 67, 115, 0.6), transparent),
+        radial-gradient(2px 2px at 80px 90px, rgba(29, 23, 191, 0.4), transparent);
     animation: zoom 9s infinite linear;
 }
 
@@ -68,7 +68,7 @@ body {
 
 /* Hero Section - Cosmic Theme */
 .hero {
-    background: linear-gradient(135deg, #00010D, #020E26, #44428C);
+    background: linear-gradient(135deg, #161426, #192340, #140F8C, #1D17BF);
     padding: 4rem 2rem;
     text-align: center;
     position: relative;
@@ -87,9 +87,9 @@ body {
     right: 0;
     bottom: 0;
     background: 
-        radial-gradient(ellipse at 20% 50%, rgba(94, 126, 191, 0.2) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 20%, rgba(68, 66, 140, 0.3) 0%, transparent 50%),
-        radial-gradient(ellipse at 40% 80%, rgba(13, 13, 13, 0.4) 0%, transparent 50%);
+        radial-gradient(ellipse at 20% 50%, rgba(29, 23, 191, 0.2) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(44, 67, 115, 0.3) 0%, transparent 50%),
+        radial-gradient(ellipse at 40% 80%, rgba(22, 20, 38, 0.4) 0%, transparent 50%);
 }
 
 .logo-container {
@@ -99,7 +99,7 @@ body {
 }
 
 .cosmos-logo {
-    filter: drop-shadow(0 0 20px rgba(94, 126, 191, 0.8));
+    filter: drop-shadow(0 0 20px rgba(29, 23, 191, 0.8));
     animation: logoFloat 4s ease-in-out infinite;
 }
 
@@ -120,22 +120,22 @@ body {
     font-weight: 700;
     color: #fff;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 30px rgba(94, 126, 191, 0.5);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 30px rgba(29, 23, 191, 0.5);
     animation: glow 2s ease-in-out infinite alternate;
 }
 
 .hero-title i {
-    color: #5E7EBF;
+    color: #ffd700;
     margin-right: 1rem;
     animation: satellite 3s ease-in-out infinite;
 }
 
 @keyframes glow {
     from { 
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 20px rgba(94, 126, 191, 0.3);
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 20px rgba(29, 23, 191, 0.3);
     }
     to { 
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 40px rgba(94, 126, 191, 0.8);
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 40px rgba(29, 23, 191, 0.8);
     }
 }
 
@@ -146,14 +146,14 @@ body {
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: #5E7EBF;
+    color: #b8c5ff;
     margin-bottom: 2rem;
     font-weight: 300;
-    text-shadow: 0 0 10px rgba(94, 126, 191, 0.3);
+    text-shadow: 0 0 10px rgba(184, 197, 255, 0.3);
 }
 
 .hero-badge {
-    background: rgba(94, 126, 191, 0.2);
+    background: rgba(29, 23, 191, 0.2);
     backdrop-filter: blur(10px);
     padding: 1rem 2rem;
     border-radius: 50px;
@@ -161,9 +161,9 @@ body {
     align-items: center;
     gap: 0.5rem;
     color: #fff;
-    border: 1px solid rgba(94, 126, 191, 0.3);
+    border: 1px solid rgba(29, 23, 191, 0.3);
     font-weight: 500;
-    box-shadow: 0 8px 32px rgba(0, 1, 13, 0.3);
+    box-shadow: 0 8px 32px rgba(22, 20, 38, 0.3);
 }
 
 /* Space Elements */
@@ -187,7 +187,7 @@ body {
 .planet-1 {
     width: 80px;
     height: 80px;
-    background: radial-gradient(circle at 30% 30%, #5E7EBF, #44428C);
+    background: radial-gradient(circle at 30% 30%, #1D17BF, #140F8C);
     top: 15%;
     right: 10%;
     animation-duration: 25s;
@@ -196,7 +196,7 @@ body {
 .planet-2 {
     width: 50px;
     height: 50px;
-    background: radial-gradient(circle at 40% 40%, #44428C, #020E26);
+    background: radial-gradient(circle at 40% 40%, #2C4373, #192340);
     bottom: 20%;
     left: 15%;
     animation-duration: 30s;
@@ -206,7 +206,7 @@ body {
 .planet-3 {
     width: 30px;
     height: 30px;
-    background: radial-gradient(circle at 50% 50%, #5E7EBF, #00010D);
+    background: radial-gradient(circle at 50% 50%, #140F8C, #161426);
     top: 40%;
     left: 5%;
     animation-duration: 35s;
@@ -273,7 +273,7 @@ body {
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 3rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 20px rgba(94, 126, 191, 0.4);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 20px rgba(29, 23, 191, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,22 +281,22 @@ body {
 }
 
 .section-title i {
-    color: #5E7EBF;
-    filter: drop-shadow(0 0 10px rgba(94, 126, 191, 0.6));
+    color: #ffd700;
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.6));
 }
 
 /* Post-it Notes - Space Theme */
 .post-it {
-    background: linear-gradient(135deg, #44428C, #5E7EBF);
+    background: linear-gradient(135deg, #140F8C, #1D17BF);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 
-        0 10px 20px rgba(0, 1, 13, 0.4), 
-        0 6px 6px rgba(0, 1, 13, 0.2),
+        0 10px 20px rgba(22, 20, 38, 0.4), 
+        0 6px 6px rgba(22, 20, 38, 0.2),
         inset 0 1px 0 rgba(255, 255, 255, 0.1);
     transition: all 0.3s ease;
     position: relative;
-    border: 1px solid rgba(94, 126, 191, 0.2);
+    border: 1px solid rgba(29, 23, 191, 0.2);
     backdrop-filter: blur(10px);
 }
 
@@ -310,7 +310,7 @@ body {
     background: linear-gradient(45deg, 
                 rgba(255,255,255,0.1) 0%, 
                 transparent 50%, 
-                rgba(0, 1, 13, 0.1) 100%);
+                rgba(22, 20, 38, 0.1) 100%);
     border-radius: 12px;
     pointer-events: none;
 }
@@ -318,54 +318,54 @@ body {
 .post-it:hover {
     transform: scale(1.02);
     box-shadow: 
-        0 15px 30px rgba(0, 1, 13, 0.5), 
-        0 10px 10px rgba(0, 1, 13, 0.3),
-        0 0 20px rgba(94, 126, 191, 0.3);
+        0 15px 30px rgba(22, 20, 38, 0.5), 
+        0 10px 10px rgba(22, 20, 38, 0.3),
+        0 0 20px rgba(29, 23, 191, 0.3);
 }
 
 /* Post-it Colors - Space Palette */
 .post-it-yellow { 
-    background: linear-gradient(135deg, #5E7EBF, #44428C); 
+    background: linear-gradient(135deg, #2C4373, #1D17BF); 
     color: white;
 }
 
 .post-it-blue { 
-    background: linear-gradient(135deg, #020E26, #44428C); 
+    background: linear-gradient(135deg, #1D17BF, #140F8C); 
     color: white; 
 }
 
 .post-it-green { 
-    background: linear-gradient(135deg, #44428C, #00010D); 
+    background: linear-gradient(135deg, #192340, #161426); 
     color: white; 
 }
 
 .post-it-purple { 
-    background: linear-gradient(135deg, #5E7EBF, #020E26); 
+    background: linear-gradient(135deg, #140F8C, #192340); 
     color: white; 
 }
 
 .post-it-orange { 
-    background: linear-gradient(135deg, #44428C, #5E7EBF); 
+    background: linear-gradient(135deg, #2C4373, #192340); 
     color: white; 
 }
 
 .post-it-red { 
-    background: linear-gradient(135deg, #020E26, #0D0D0D); 
+    background: linear-gradient(135deg, #161426, #140F8C); 
     color: white; 
 }
 
 .post-it-cyan { 
-    background: linear-gradient(135deg, #5E7EBF, #44428C); 
+    background: linear-gradient(135deg, #1D17BF, #2C4373); 
     color: white; 
 }
 
 .post-it-pink { 
-    background: linear-gradient(135deg, #44428C, #020E26); 
+    background: linear-gradient(135deg, #192340, #1D17BF); 
     color: white; 
 }
 
 .post-it-gold { 
-    background: linear-gradient(135deg, #5E7EBF, #44428C); 
+    background: linear-gradient(135deg, #2C4373, #140F8C); 
     color: white;
 }
 
@@ -470,19 +470,19 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    text-shadow: 0 0 20px rgba(94, 126, 191, 0.6);
+    text-shadow: 0 0 20px rgba(29, 23, 191, 0.6);
 }
 
 .difficulty-title.easy {
-    color: #5E7EBF;
+    color: #a8b3ff;
 }
 
 .difficulty-title.medium {
-    color: #44428C;
+    color: #9bb0ff;
 }
 
 .difficulty-title.hard {
-    color: #020E26;
+    color: #8da6ff;
 }
 
 .kata-cards {
@@ -2019,7 +2019,7 @@ html {
 /* Products in Pillars */
 .products-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 
@@ -2035,7 +2035,7 @@ html {
 
 .product-icon {
     font-size: 1.2rem;
-    color: #FFD700;
+    color: #ffffff;
 }
 
 .product-content h4 {
