@@ -6,9 +6,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #161426 0%, #192340 25%, #140F8C 50%, #1D17BF 75%, #2C4373 100%);
+    background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 25%, #252d3d 50%, #2d3748 75%, #374151 100%);
     min-height: 100vh;
-    color: #fff;
+    color: #e5e7eb;
     overflow-x: hidden;
     position: relative;
 }
@@ -68,7 +68,7 @@ body {
 
 /* Hero Section - Cosmic Theme */
 .hero {
-    background: linear-gradient(135deg, #161426, #192340, #140F8C, #1D17BF);
+    background: linear-gradient(135deg, #1a1f2e, #252d3d, #2d3748, #374151);
     padding: 4rem 2rem;
     text-align: center;
     position: relative;
@@ -118,9 +118,9 @@ body {
 .hero-title {
     font-size: 3.5rem;
     font-weight: 700;
-    color: #fff;
+    color: #f3f4f6;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 30px rgba(29, 23, 191, 0.5);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0 0 30px rgba(94, 126, 191, 0.5);
     animation: glow 2s ease-in-out infinite alternate;
 }
 
@@ -146,24 +146,24 @@ body {
 
 .hero-subtitle {
     font-size: 1.5rem;
-    color: #b8c5ff;
+    color: #d1d5db;
     margin-bottom: 2rem;
     font-weight: 300;
-    text-shadow: 0 0 10px rgba(184, 197, 255, 0.3);
+    text-shadow: 0 0 10px rgba(94, 126, 191, 0.3);
 }
 
 .hero-badge {
-    background: rgba(29, 23, 191, 0.2);
+    background: rgba(94, 126, 191, 0.2);
     backdrop-filter: blur(10px);
     padding: 1rem 2rem;
     border-radius: 50px;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    color: #fff;
-    border: 1px solid rgba(29, 23, 191, 0.3);
+    color: #f3f4f6;
+    border: 1px solid rgba(94, 126, 191, 0.4);
     font-weight: 500;
-    box-shadow: 0 8px 32px rgba(22, 20, 38, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 /* Space Elements */
@@ -271,9 +271,9 @@ body {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color: #fff;
+    color: #f3f4f6;
     margin-bottom: 3rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 0 0 20px rgba(29, 23, 191, 0.4);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0 0 20px rgba(94, 126, 191, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,16 +287,16 @@ body {
 
 /* Post-it Notes - Space Theme */
 .post-it {
-    background: linear-gradient(135deg, #140F8C, #1D17BF);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.85), rgba(248, 249, 250, 0.85));
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 
-        0 10px 20px rgba(22, 20, 38, 0.4), 
-        0 6px 6px rgba(22, 20, 38, 0.2),
-        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow:
+        0 10px 20px rgba(0, 0, 0, 0.1),
+        0 6px 6px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
     transition: all 0.3s ease;
     position: relative;
-    border: 1px solid rgba(29, 23, 191, 0.2);
+    border: 1px solid rgba(94, 126, 191, 0.2);
     backdrop-filter: blur(10px);
 }
 
@@ -317,56 +317,65 @@ body {
 
 .post-it:hover {
     transform: scale(1.02);
-    box-shadow: 
-        0 15px 30px rgba(22, 20, 38, 0.5), 
-        0 10px 10px rgba(22, 20, 38, 0.3),
-        0 0 20px rgba(29, 23, 191, 0.3);
+    box-shadow:
+        0 15px 30px rgba(0, 0, 0, 0.15),
+        0 10px 10px rgba(0, 0, 0, 0.08),
+        0 0 20px rgba(94, 126, 191, 0.2);
 }
 
 /* Post-it Colors - Space Palette */
-.post-it-yellow { 
-    background: linear-gradient(135deg, #2C4373, #1D17BF); 
-    color: white;
+.post-it-yellow {
+    background: linear-gradient(135deg, rgba(80, 95, 125, 0.95), rgba(65, 80, 110, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
-.post-it-blue { 
-    background: linear-gradient(135deg, #1D17BF, #140F8C); 
-    color: white; 
+.post-it-blue {
+    background: linear-gradient(135deg, rgba(75, 90, 120, 0.95), rgba(60, 75, 105, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
-.post-it-green { 
-    background: linear-gradient(135deg, #192340, #161426); 
-    color: white; 
+.post-it-green {
+    background: linear-gradient(135deg, rgba(70, 85, 115, 0.95), rgba(55, 70, 100, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
-.post-it-purple { 
-    background: linear-gradient(135deg, #140F8C, #192340); 
-    color: white; 
+.post-it-purple {
+    background: linear-gradient(135deg, rgba(85, 95, 130, 0.95), rgba(70, 80, 115, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
-.post-it-orange { 
-    background: linear-gradient(135deg, #2C4373, #192340); 
-    color: white; 
+.post-it-orange {
+    background: linear-gradient(135deg, rgba(90, 100, 130, 0.95), rgba(75, 85, 115, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
-.post-it-red { 
-    background: linear-gradient(135deg, #161426, #140F8C); 
-    color: white; 
+.post-it-red {
+    background: linear-gradient(135deg, rgba(85, 95, 130, 0.95), rgba(70, 80, 115, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
-.post-it-cyan { 
-    background: linear-gradient(135deg, #1D17BF, #2C4373); 
-    color: white; 
+.post-it-cyan {
+    background: linear-gradient(135deg, rgba(75, 95, 130, 0.95), rgba(60, 80, 115, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
-.post-it-pink { 
-    background: linear-gradient(135deg, #192340, #1D17BF); 
-    color: white; 
+.post-it-pink {
+    background: linear-gradient(135deg, rgba(80, 100, 135, 0.95), rgba(65, 85, 120, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
-.post-it-gold { 
-    background: linear-gradient(135deg, #2C4373, #140F8C); 
-    color: white;
+.post-it-gold {
+    background: linear-gradient(135deg, rgba(90, 105, 135, 0.95), rgba(75, 90, 120, 0.95));
+    color: #e5e7eb;
+    border-color: rgba(94, 126, 191, 0.5);
 }
 
 /* Sections */
